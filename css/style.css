@@ -188,30 +188,34 @@ letter-spacing: 0.48px;
 }
 
 .header{
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 29px;
+padding-bottom: 31px;
 }
 
 .hero{
-padding-top:  210px;
-padding-bottom: 290px;
+padding-top:  200px;
+padding-bottom: 280px;
 }
 
 .advantages{
-padding-top:  95px;
-padding-bottom: 135px;
+padding-top:  94px;
+padding-bottom: 125px;
 }
 .about-img{
-padding-top: 60px;
+padding-top: 50px;
 }
 
 .about{
-padding-bottom: 90px;
+padding-bottom: 91px;
 }
 
 .team{
-padding-top: 100px;
-padding-bottom: 90px;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.team-title{
+    padding-bottom: 50px;
 }
 .footer{
 padding-top: 60px;
@@ -219,11 +223,12 @@ padding-bottom: 60px;
 }
 
 .gallay{
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .button-list{
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
