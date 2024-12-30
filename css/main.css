@@ -1,0 +1,84 @@
+:root{
+    --accent-color:#2196F3;
+    --logo-color:#000;
+    --text-color:#212121;
+    --added-text:#757575;
+    --title-color:#FFF;
+    --team-beakground:#F5F4FA;
+    --footer-beakground:#2F303A;
+    --footer-contacts:rgba(255, 255, 255, 0.60);
+    --border-colors: #eee ;
+}
+/* портфоліо */
+
+
+
+.button-btn{
+    color: var(--text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62; 
+letter-spacing: 0.48px;
+border-radius: 4px;
+background: var(--team-beakground);
+position: relative; 
+font-family: Roboto;
+font-style: normal; 
+border: none;
+width: 125px;
+width: 125px;
+flex-shrink: 0;
+padding: 6px 22px;
+}
+
+.button-btn:hover{
+    color: var(--title-color);
+    background-color: var(--accent-color);
+}
+.button-list{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+
+} 
+.gallay{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.gallay-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.gallay-item{
+    border: 1px solid var(--border-colors);
+    background: var(--title-color);
+
+}
+.gallay-title{
+    color: var(--text-color);
+font-size: 18px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 2; /* 200% */
+letter-spacing: 1.08px;
+
+
+}
+.gallay-text{
+    color: var(--added-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+}
+
+
+
+

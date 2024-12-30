@@ -16,7 +16,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 
@@ -264,17 +264,19 @@ font-style: normal;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
-/* gallay */
-.button-btn{
+
+/* портфоліо */
+ /* .button-btn{
     color: var(--text-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
-line-height: 1.62; /* 162.5% */
+line-height: 1.62; 
 letter-spacing: 0.48px;
 border-radius: 4px;
 background: var(--team-beakground);
 }
+
 .button-btn:hover{
     color: var(--title-color);
     background-color: var(--accent-color);
@@ -282,7 +284,7 @@ background: var(--team-beakground);
 .button-list{
     padding-top: 30px;
     padding-bottom: 50px;
-}
+} 
 .gallay{
     padding-top: 94px;
     padding-bottom: 50px;
@@ -292,15 +294,13 @@ background: var(--team-beakground);
 font-size: 18px;
 font-weight: 700;
 line-height: 2; /* 200% */
-letter-spacing: 1.08px;
+/* letter-spacing: 1.08px;
 }
 .gallay-text{
     color: var(--added-text);
 font-size: 16px;
 font-weight: 400;
 line-height: 30px; /* 187.5% */
-letter-spacing: 0.48px;
-}
-
-
+/* letter-spacing: 0.48px;
+}  */
 
