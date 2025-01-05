@@ -22,13 +22,10 @@ line-height: 1.62;
 letter-spacing: 0.48px;
 border-radius: 4px;
 background: var(--team-beakground);
-position: relative; 
 font-family: Roboto;
 font-style: normal; 
 border: none;
 width: 125px;
-width: 125px;
-flex-shrink: 0;
 padding: 6px 22px;
 }
 
@@ -37,8 +34,7 @@ padding: 6px 22px;
     background-color: var(--accent-color);
 }
 .button-list{
-    padding-top: 30px;
-    padding-bottom: 50px;
+   
     display: flex;
     gap: 8px;
     justify-content: center;
@@ -47,6 +43,7 @@ padding: 6px 22px;
 .gallay{
     padding-top: 94px;
     padding-bottom: 94px;
+    border-top: 1px solid red;
 }
 
 .gallay-list{
@@ -57,8 +54,9 @@ padding: 6px 22px;
     gap: 30px;
 }
 .gallay-item{
-    border: 1px solid var(--border-colors);
+    outline: 1px solid var(--border-colors);
     background: var(--title-color);
+flex-basis: calc((100% - 60px) / 3);
 
 }
 .gallay-title{
@@ -68,6 +66,7 @@ font-family: Roboto;
 font-weight: 700;
 line-height: 2; /* 200% */
 letter-spacing: 1.08px;
+margin-bottom: 4px;
 
 
 }

@@ -165,10 +165,11 @@ border: none;
 .about-list{
     display: flex;
     gap: 30px;
+ margin-top: 50px;
     
 }
 .about-img{
-    padding-top: 50px;
+    
     }
 
 /* team */
@@ -185,7 +186,6 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
 margin-bottom: 50px;
-background-color: red;
 }
 .team-name{
     color: var(--text-color);
@@ -194,9 +194,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
-padding-top: 30px;
-padding-bottom: 10px;
-
+margin-bottom: 10px;
 }
 .team-desk{
     color: var(--added-text) ;
@@ -205,9 +203,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.48px;
-display: flex;
-justify-content: center;
-padding-bottom: 30px;
+
 }
 .team-list{
     display: flex;
