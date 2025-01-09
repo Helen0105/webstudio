@@ -187,6 +187,15 @@ line-height: 1.16;
 letter-spacing: 1.08px;
 margin-bottom: 50px;
 }
+
+
+.team-box{
+padding-top: 35px;
+padding-bottom: 30px;
+}
+
+
+
 .team-name{
     color: var(--text-color);
 text-align: center;
