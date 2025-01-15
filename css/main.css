@@ -1,0 +1,97 @@
+:root{
+    --accent-color:#2196F3;
+    --logo-color:#000;
+    --text-color:#212121;
+    --added-text:#757575;
+    --title-color:#FFF;
+    --team-beakground:#F5F4FA;
+    --footer-beakground:#2F303A;
+    --footer-contacts:rgba(255, 255, 255, 0.60);
+    --border-colors: #eee ;
+}
+/* портфоліо */
+
+.header{
+    border-bottom:  1px solid #eee ;
+}
+
+.button-btn{
+    color: var(--text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62; 
+letter-spacing: 0.48px;
+border-radius: 4px;
+background: var(--team-beakground);
+font-style: normal; 
+border: none;
+padding: 6px 22px;
+}
+
+
+.button-btn:hover{
+    color: var(--title-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+.button-list{
+   
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+
+} 
+.gallay{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    /* border-top: 1px solid red; */
+}
+
+.gallay-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.gallay-item{
+    outline: 1px solid var(--border-colors);
+    background: var(--title-color);
+flex-basis: calc((100% - 60px) / 3);
+
+}
+
+
+.gallay-item:hover{
+    border: 1px solid var(--border-color);
+    background: #FFF;
+
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.gallay-title{
+    color: var(--text-color);
+font-size: 18px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 2; /* 200% */
+letter-spacing: 1.08px;
+margin-bottom: 4px;
+
+
+}
+
+.gallay-text{
+    color: var(--added-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+}
+
+.gallery-imgtext{
+    padding: 20px 24px;
+}
