@@ -90,8 +90,19 @@ align-items: center;
 .header-icons{
     width: 16px;
 height: 12px;
-fill: var(--accent-color);
+/* fill: var(--accent-color); */
 }
+
+
+.header-icon2{
+    width: 10px;
+height: 16px;
+}
+
+.header-icons:hover{
+    fill: var(--accent-color); 
+}
+
 /* секція hero */
 
 .hero{
