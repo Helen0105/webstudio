@@ -38,7 +38,7 @@ body {
 .header-items {
     display: flex;
     gap: 50px;
-margin-left: 313px;
+margin-left: auto;
 margin-right: auto;
 }
 
@@ -107,7 +107,7 @@ margin-right: auto;
 fill: #2196F3;
 }
 .header-nav{
-margin: 93px;
+margin-left: 93px;
 }
 
 
