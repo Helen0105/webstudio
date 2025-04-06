@@ -18,7 +18,9 @@
     padding-right: 15px;
     /* outline: 1px solid red; */
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Roboto;
@@ -763,3 +765,4 @@ transform:scale(0) rotate(360deg) skew(50deg,50deg)  ;
     display: flex;
     justify-content: center;
 }
+
