@@ -14,10 +14,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/reset.css" />
-</head>
 
+</head>
 <body>
   <!-- секція  header -->
   <header class="header">
@@ -28,7 +28,7 @@
         <nav class="header-nav">
           <ul class="header-list">
             <li class="header-item">
-              <a href="./index.html" class="header-link">Студія</a>
+              <a href="./index.html" class="header-link active" >Студія</a>
             </li>
             <li class="header-item">
               <a href="./pages/gallay.html" class="header-link">Портфоліо</a>
@@ -337,7 +337,7 @@
       </div>
       <div class="footer-join">
         <h2 class="footer-heading">ПРИЄДНУЙТЕСЬ</h2>
-        <ul>
+        <ul class="footer-items">
           <li class="footer-item">
             <a href="" class="footer-linkes">
               <svg class="footer-svg">
@@ -367,6 +367,16 @@
             </a>
           </li>
         </ul>
+      </div>
+      <div class="footer-wrap">
+<h2 class="footer-title">Підпишіться на розсилку</h2>
+<form class="footer-form">
+  <input type="email" placeholder="E-mail" required class="footer-input">
+  <button type="submit" class="footer-btn">
+    Підписатися <svg class="footer-icon">
+      <use href="./imges/symbol-defs.svg#icon-send"></use>
+    </svg></button>
+</form>
       </div>
     </div>
   </footer>
