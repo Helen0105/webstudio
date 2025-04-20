@@ -17,7 +17,7 @@
 }
 
 .header-logo {
-    color: var(--accent-color);
+    color: $accent-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -27,7 +27,7 @@
 }
 
 .header-studio {
-    color: var(--logo-color);
+    color: $logo-color;
 }
 
 .header-item {
@@ -35,7 +35,7 @@
 }
 
 .header-link {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -46,7 +46,7 @@
 }
 
 .header-link:hover {
-    color: var(--accent-color);
+    color: $accent-color;
 
 }
 
@@ -54,7 +54,7 @@
     content: "";
     display: block;
     border-radius: 2px;
-    background: var(--accent-color);
+    background: $accent-color;
     width: 100%;
     height: 4px;
     position: absolute;
@@ -72,11 +72,11 @@
 }
 
 .active {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .header-contact {
-    color: var(--added-text);
+    color: $added-text;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -90,14 +90,14 @@
 }
 
 .header-contact:hover {
-    color: var(--accent-color);
+    color: $accent-color;
 
     .header-icons {
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 
     .header-icon2 {
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 }
 
@@ -111,14 +111,14 @@
 .header-icons {
     width: 16px;
     height: 12px;
-    fill: var(--added-text);
+    fill: $added-text;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icons:hover {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 
 .header-nav {
@@ -129,7 +129,7 @@
 .header-icon2 {
     width: 10px;
     height: 16px;
-    fill: var(--added-text);
+    fill: $added-text;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -137,5 +137,5 @@
 
 
 .header-icon2:hover {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }

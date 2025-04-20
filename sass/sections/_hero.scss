@@ -10,7 +10,7 @@
 
 
 .hero-title {
-    color: var(--title-color);
+    color: $title-color;
     text-align: center;
     width: 696px;
     font-size: 44px;
@@ -25,8 +25,8 @@
 }
 
 .hero-btn {
-    color: var(--title-color);
-    background-color: var(--accent-color);
+    color: $title-color;
+    background-color: $accent-color;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
@@ -35,7 +35,7 @@
     letter-spacing: 0.96px;
     padding: 10px 32px 10px 32px;
     border: none;
-    box-shadow: 0px 4px 4px 0px var(--hero-boxshadow);
+    box-shadow: 0px 4px 4px 0px $hero-boxshadow;
 }
 
 .hero-container {

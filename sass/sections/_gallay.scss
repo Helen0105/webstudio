@@ -1,12 +1,12 @@
 .button-btn {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: var(--team-beakground);
+    background: $team-beakground;
     font-style: normal;
     border: none;
     padding: 6px 22px;
@@ -17,8 +17,8 @@
 
 
 .button-btn:hover {
-    color: var(--title-color);
-    background-color: var(--accent-color);
+    color: $title-color;
+    background-color: $accent-color;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 
 
@@ -46,8 +46,8 @@
 }
 
 .gallay-item {
-    outline: 1px solid var(--border-colors);
-    background: var(--title-color);
+    outline: 1px solid $border-colors;
+    background: $title-color;
     flex-basis: calc((100% - 60px) / 3);
     transition-property: box-shadow;
     transition-duration: 250ms;
@@ -60,14 +60,14 @@
 }
 
 .gallay-desk {
-    color: var(--title-color);
+    color: $title-color;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     /* 155.556% */
     letter-spacing: 0.54px;
     padding: 63px 24px;
-    background: var(--gallay-desk);
+    background: $gallay-desk;
     position: absolute;
     top: 0;
     left: 0;
@@ -88,7 +88,7 @@
 }
 
 .gallay-title {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 18px;
     font-family: Roboto;
     font-weight: 700;
@@ -101,7 +101,7 @@
 }
 
 .gallay-text {
-    color: var(--added-text);
+    color: $added-text;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;

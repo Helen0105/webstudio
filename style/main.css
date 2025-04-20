@@ -24,28 +24,6 @@ button {
   cursor: pointer;
 }
 
-:root {
-  --accent-color: #2196F3;
-  --logo-color: #000;
-  --text-color: #212121;
-  --added-text: #757575;
-  --title-color: #FFF;
-  --team-beakground: #F5F4FA;
-  --footer-beakground: #2F303A;
-  --footer-contacts: rgba(255, 255, 255, 0.60);
-  --afro-color: #AFB1B8;
-  --advantages-background: #f5f4fa67;
-  --footer-linkes: rgba(255, 255, 255, 0.10);
-  --gallay-desk: rgba(33, 150, 243, 0.90);
-  --backdrp-background: rgba(0, 0, 0, 0.5);
-  --modal-bsh: rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.20);
-  --modal-close: rgba(0, 0, 0, 0.10);
-  --modal-input: rgba(33, 33, 33, 0.20) ;
-  --modal-focus: #188CE8;
-  --modal-coment: rgba(117, 117, 117, 0.50);
-  --hero-boxshadow: rgba(0, 0, 0, 0.15);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -276,7 +254,7 @@ body {
 }
 
 .advantages-title {
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -286,7 +264,7 @@ body {
 }
 
 .advantages-desk {
-  color: var(--added-text);
+  color: #757575;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -304,7 +282,7 @@ body {
 }
 
 .about-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -314,7 +292,7 @@ body {
 }
 
 .about-subtitle {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-family: Roboto;
   font-size: 14px;
@@ -467,25 +445,25 @@ body {
 }
 
 .clients-item:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
 }
 .clients-item:hover .clients-icon {
   width: 106px;
   height: 60px;
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .clients-icon {
   width: 106px;
   height: 60px;
-  fill: var(--afro-color);
+  fill: #afb1b8;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
-  background: var(--footer-beakground);
+  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -501,7 +479,7 @@ body {
 }
 
 .footer-logo {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -514,11 +492,11 @@ body {
 }
 
 .footer-color {
-  color: var(--title-color);
+  color: #fff;
 }
 
 .footer-link {
-  color: var(--title-color);
+  color: #fff;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -542,7 +520,7 @@ body {
 }
 
 .footer-contact {
-  color: var(--footer-contacts);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -552,7 +530,7 @@ body {
 }
 
 .footer-heading {
-  color: var(--title-color);
+  color: #fff;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -565,14 +543,14 @@ body {
 .footer-svg {
   width: 20px;
   height: 20px;
-  fill: var(--title-color);
+  fill: #fff;
 }
 
 .footer-linkes {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--footer-linkes);
+  background-color: rgba(255, 255, 255, 0.1);
   align-items: center;
   justify-content: center;
   display: flex;
@@ -582,11 +560,11 @@ body {
 }
 
 .footer-linkes:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer-title {
-  color: var(--title-color);
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -602,7 +580,7 @@ body {
 }
 
 .footer-input {
-  color: var(--footer-contacts);
+  color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -620,7 +598,7 @@ body {
 }
 
 .footer-btn {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -631,7 +609,7 @@ body {
   letter-spacing: 0.96px;
   padding: 10px 28px 10px 28px;
   border-radius: 4px;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   display: flex;
@@ -642,7 +620,7 @@ body {
 .footer-icon {
   width: 24px;
   height: 24px;
-  fill: var(--title-color);
+  fill: #fff;
 }
 
 .backdrop {
@@ -860,14 +838,14 @@ body {
 
 /* портфоліо */
 .button-btn {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
   border-radius: 4px;
-  background: var(--team-beakground);
+  background: #f5f4fa;
   font-style: normal;
   border: none;
   padding: 6px 22px;
@@ -877,8 +855,8 @@ body {
 }
 
 .button-btn:hover {
-  color: var(--title-color);
-  background-color: var(--accent-color);
+  color: #fff;
+  background-color: #2196f3;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
