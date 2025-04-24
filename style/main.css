@@ -59,7 +59,7 @@ body {
 }
 
 .header-logo {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -68,7 +68,7 @@ body {
 }
 
 .header-studio {
-  color: var(--logo-color);
+  color: #000;
 }
 
 .header-item {
@@ -76,7 +76,7 @@ body {
 }
 
 .header-link {
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -87,14 +87,14 @@ body {
 }
 
 .header-link:hover {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .header-link:after {
   content: "";
   display: block;
   border-radius: 2px;
-  background: var(--accent-color);
+  background: #2196f3;
   width: 100%;
   height: 4px;
   position: absolute;
@@ -112,11 +112,11 @@ body {
 }
 
 .active {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .header-contact {
-  color: var(--added-text);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -130,13 +130,13 @@ body {
 }
 
 .header-contact:hover {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .header-contact:hover .header-icons {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 .header-contact:hover .header-icon2 {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .header-container {
@@ -147,14 +147,14 @@ body {
 .header-icons {
   width: 16px;
   height: 12px;
-  fill: var(--added-text);
+  fill: #757575;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icons:hover {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .header-nav {
@@ -164,14 +164,14 @@ body {
 .header-icon2 {
   width: 10px;
   height: 16px;
-  fill: var(--added-text);
+  fill: #757575;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon2:hover {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .hero {
@@ -185,7 +185,7 @@ body {
 }
 
 .hero-title {
-  color: var(--title-color);
+  color: #fff;
   text-align: center;
   width: 696px;
   font-size: 44px;
@@ -200,8 +200,8 @@ body {
 }
 
 .hero-btn {
-  color: var(--title-color);
-  background-color: var(--accent-color);
+  color: #fff;
+  background-color: #2196f3;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
@@ -210,7 +210,7 @@ body {
   letter-spacing: 0.96px;
   padding: 10px 32px 10px 32px;
   border: none;
-  box-shadow: 0px 4px 4px 0px var(--hero-boxshadow);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-container {
@@ -232,7 +232,7 @@ body {
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--advantages-background);
+  background: rgba(245, 244, 250, 0.4039215686);
   margin-bottom: 30px;
   display: block;
   margin-bottom: 30px;
@@ -420,7 +420,7 @@ body {
 }
 
 .clients-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -438,7 +438,7 @@ body {
 .clients-item {
   padding: 16px 32px;
   border-radius: 4px;
-  border: 1px solid var(--afro-color);
+  border: 1px solid #afb1b8;
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -880,8 +880,8 @@ body {
 }
 
 .gallay-item {
-  outline: 1px solid var(--border-colors);
-  background: var(--title-color);
+  outline: 1px solid #eee;
+  background: #fff;
   flex-basis: calc((100% - 60px) / 3);
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -894,14 +894,14 @@ body {
 }
 
 .gallay-desk {
-  color: var(--title-color);
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   /* 155.556% */
   letter-spacing: 0.54px;
   padding: 63px 24px;
-  background: var(--gallay-desk);
+  background: rgba(33, 150, 243, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -921,7 +921,7 @@ body {
 }
 
 .gallay-title {
-  color: var(--text-color);
+  color: #212121;
   font-size: 18px;
   font-family: Roboto;
   font-weight: 700;
@@ -932,7 +932,7 @@ body {
 }
 
 .gallay-text {
-  color: var(--added-text);
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;

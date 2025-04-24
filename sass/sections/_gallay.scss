@@ -46,7 +46,7 @@
 }
 
 .gallay-item {
-    outline: 1px solid $border-colors;
+    outline: 1px solid $border-color;
     background: $title-color;
     flex-basis: calc((100% - 60px) / 3);
     transition-property: box-shadow;
