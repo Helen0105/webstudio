@@ -1,4 +1,4 @@
-.button-btn {
+.button__btn {
     color: $text-color;
     text-align: center;
     font-size: 16px;
@@ -16,7 +16,7 @@
 }
 
 
-.button-btn:hover {
+.button__btn:hover {
     color: $title-color;
     background-color: $accent-color;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
@@ -24,7 +24,7 @@
 
 }
 
-.button-list {
+.button__list {
 
     display: flex;
     gap: 8px;
@@ -37,7 +37,7 @@
     /* border-top: 1px solid red; */
 }
 
-.gallay-list {
+.gallay__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,7 +45,7 @@
     gap: 30px;
 }
 
-.gallay-item {
+.gallay__item {
     outline: 1px solid $border-color;
     background: $title-color;
     flex-basis: calc((100% - 60px) / 3);
@@ -54,12 +54,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallay-box {
+.gallay__box {
     position: relative;
     overflow: hidden;
 }
 
-.gallay-desk {
+.gallay__desk {
     color: $title-color;
     font-size: 18px;
     font-weight: 400;
@@ -78,16 +78,16 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallay-item:hover {
+.gallay__item:hover {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 
-    .gallay-desk {
+    .gallay__desk {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.gallay-title {
+.gallay__title {
     color: $text-color;
     font-size: 18px;
     font-family: Roboto;
@@ -100,7 +100,7 @@
 
 }
 
-.gallay-text {
+.gallay__text {
     color: $added-text;
     font-size: 16px;
     font-weight: 400;
@@ -109,6 +109,6 @@
     letter-spacing: 0.48px;
 }
 
-.gallery-imgtext {
+.gallery__imgtext {
     padding: 20px 24px;
 }
