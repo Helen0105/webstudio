@@ -681,6 +681,11 @@ body {
   outline: 1px solid #2196f3;
 }
 
+.modal__input:hover + .modal__icon,
+.modal__input:focus + .modal__icon {
+  fill: #2196f3;
+}
+
 .modal__coment:hover,
 .modal__coment:focus {
   border: none;

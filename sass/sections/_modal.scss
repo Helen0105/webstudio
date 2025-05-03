@@ -103,6 +103,13 @@
     outline: 1px solid  $accent-color;
 }
 
+
+.modal__input:hover + .modal__icon,
+.modal__input:focus + .modal__icon{
+    fill: $accent-color;
+}
+
+
 .modal__coment:hover,
 .modal__coment:focus {
     border: none;
