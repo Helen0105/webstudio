@@ -42,7 +42,7 @@
         &:hover,
         &:focus {
             border: 0px solid transparent;
-            outline: 1 px solid $modal-close;
+            outline: 1px solid $modal-close;
 
             .modal__cross {
                 fill: $accent-color;
