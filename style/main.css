@@ -52,15 +52,6 @@ body {
   display: flex;
   align-items: center;
 }
-.header__list {
-  display: flex;
-  gap: 50px;
-}
-.header__items {
-  display: flex;
-  gap: 50px;
-  margin-left: auto;
-}
 .header__logo {
   color: #2196f3;
   font-family: Raleway;
@@ -72,11 +63,20 @@ body {
 .header__logo .header__studio {
   color: #000;
 }
+.header__logo__nav {
+  margin-left: 93px;
+}
+.header__logo__list {
+  display: flex;
+  gap: 50px;
+}
+.header__logo__items {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
 .header__studio {
   color: #000;
-}
-.header__nav {
-  margin-left: 93px;
 }
 .header__item {
   position: relative;
