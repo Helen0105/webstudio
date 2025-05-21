@@ -90,14 +90,13 @@ body {
   .header__logo {
     font-size: 26px;
     letter-spacing: 0.78px;
-    margin-right: 93px;
+    margin-right: 88px;
   }
 }
 .header__studio {
   color: #000;
 }
 .header__nav {
-  margin-left: 93px;
   display: none;
 }
 @media screen and (min-width: 768px) {
