@@ -609,10 +609,16 @@ body {
 .footer__logo {
   color: #2196f3;
   font-family: Raleway;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.38;
-  letter-spacing: 0.78px;
+  letter-spacing: 0.72px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__logo {
+    font-size: 26px;
+    letter-spacing: 0.78px;
+  }
 }
 .footer__adress {
   margin-top: 20px;
@@ -733,6 +739,9 @@ body {
   width: 24px;
   height: 24px;
   fill: #fff;
+}
+.footer__wrap {
+  margin-right: auto;
 }
 
 .backdrop {
