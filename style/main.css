@@ -109,6 +109,11 @@ body {
     display: block;
   }
 }
+.header__menu {
+  width: 40px;
+  height: 40px;
+  fill: black;
+}
 .header__list {
   display: flex;
   gap: 50px;
